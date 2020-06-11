@@ -1,3 +1,4 @@
+import __init__
 import cv2
 cv2.setNumThreads(0)
 from torch.utils import data
