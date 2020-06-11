@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # encoding: utf-8
+import  __init__
 import os
 import cv2
 cv2.setNumThreads(0)
