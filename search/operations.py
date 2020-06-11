@@ -1,5 +1,6 @@
 __all__ = ['ConvNorm', 'BasicResidual1x', 'BasicResidual_downup_1x', 'BasicResidual2x', 'BasicResidual_downup_2x', 'FactorizedReduce', 'OPS', 'OPS_name', 'OPS_Class']
 
+import __init__
 from pdb import set_trace as bp
 import torch
 import torch.nn as nn
