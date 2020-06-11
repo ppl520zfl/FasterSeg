@@ -1,3 +1,4 @@
+import __init__
 import numpy as np
 try:
     from utils.darts_utils import compute_latency_ms_tensorrt as compute_latency
