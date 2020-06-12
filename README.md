@@ -37,9 +37,9 @@ Highlights:
 </p>
 
 ## Prerequisites
-- Ubuntu 16.04
+- Ubuntu 18.04
 - Python 3.6.8
-- CUDA 10.1 (lower versions may work but were not tested)
+- CUDA 10.0
 - NVIDIA GPU (>= 11G graphic memory) + CuDNN v7.3
 
 This repository has been tested on GTX 1080Ti. Configurations (e.g batch size, image patch size) may need to be changed on different platforms.
@@ -55,6 +55,9 @@ cd FasterSeg
 pip install requirements.txt
 ```
 * Install [PyCuda](https://wiki.tiker.net/PyCuda/Installation) which is a dependency of TensorRT.
+```bash
+pip install pycuda==2019.1.2
+```
 * Install [TensorRT](https://github.com/NVIDIA/TensorRT) (v5.1.5.0): a library for high performance inference on NVIDIA GPUs with [Python API](https://docs.nvidia.com/deeplearning/sdk/tensorrt-api/index.html#python).
 
 ## Usage
