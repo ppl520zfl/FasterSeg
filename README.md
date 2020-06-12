@@ -59,7 +59,7 @@ pip install requirements.txt
 pip install pycuda==2019.1.2
 ```
 * Download [TensorRT](https://developer.nvidia.com/tensorrt) (v5.1.5.0): 
-  you shuld install with the [instruction](https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html#installing)
+  you shuld install with this [instruction](https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html#installing)
 
 ## Usage
 * **Work flow: [pretrain the supernet](https://github.com/chenwydj/FasterSeg#11-pretrain-the-supernet) &rarr; [search the archtecture](https://github.com/chenwydj/FasterSeg#12-search-the-architecture) &rarr; [train the teacher](https://github.com/chenwydj/FasterSeg#21-train-the-teacher-network) &rarr; [train the student](https://github.com/chenwydj/FasterSeg#22-train-the-student-network-fasterseg).**
