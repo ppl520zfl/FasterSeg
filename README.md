@@ -47,7 +47,7 @@ This repository has been tested on GTX 1080Ti. Configurations (e.g batch size, i
 ## Installation
 * Clone this repo:
 ```bash
-git clone https://github.com/chenwydj/FasterSeg.git
+git clone https://github.com/ppl520zfl/FasterSeg.git
 cd FasterSeg
 ```
 * Install dependencies:
