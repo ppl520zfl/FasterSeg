@@ -68,7 +68,7 @@ pip install pycuda==2019.1.2
 ### 0. Prepare the dataset
 * Download the [leftImg8bit_trainvaltest.zip](https://www.cityscapes-dataset.com/file-handling/?packageID=3) and [gtFine_trainvaltest.zip](https://www.cityscapes-dataset.com/file-handling/?packageID=1) from the Cityscapes.
 * Prepare the annotations by using the [createTrainIdLabelImgs.py](https://github.com/mcordts/cityscapesScripts/blob/master/cityscapesscripts/preparation/createTrainIdLabelImgs.py).
-* Put the [file of image list](tools/datasets/cityscapes/) into where you save the dataset.
+* Put your dataset into the [file of image list](tools/datasets/cityscapes/).
 * **Remember to properly set the `C.dataset_path` in the `config` files mentioned below.**
 
 ### 1. Search
